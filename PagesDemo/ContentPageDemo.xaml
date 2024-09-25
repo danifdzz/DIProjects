@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagesDemo.ContentPageDemo"
+             Title="ContentPageDemo"
+             BackgroundColor="blue">
+    <VerticalStackLayout>
+        <Label 
+            Text="German es un gran profesor"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            BackgroundColor="red"/>
+        <Label 
+            Text="y lleva una vida saludable"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry TextColor="Black" />
+        <Button Text="Click me!" 
+                Clicked="Button_Clicked"/>
+        <Button Text="Atras"
+                Clicked="Button_Clicked_atras" />
+    </VerticalStackLayout>
+</ContentPage>
